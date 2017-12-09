@@ -28,5 +28,7 @@ var Mynumber: Int = 321
 var myManyNumber : Double = 32.123
 var myStatus: Bool = false
 
-
-
+//การแสดงผลบน Console
+print("Normal String")
+print("Name = \(nameString) Surname = \(surname)")
+print("Integer = \(numberInt)")
