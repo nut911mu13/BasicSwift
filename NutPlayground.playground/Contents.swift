@@ -14,3 +14,10 @@ var statusBol = true
 //Try Change Value
 nameString = "Doramon"
 numberInt = 321
+
+//การประกาศตัวแปร ที่ไม่สามารถแก้ไขค่าได้ หรือค่าคงที่
+
+var conNameString = "Nopita"
+
+//conNameString = "Doremon" ไม่วามารถทำได้ เพราะเป็น let
+
