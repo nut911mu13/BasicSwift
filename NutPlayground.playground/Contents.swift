@@ -21,3 +21,12 @@ var conNameString = "Nopita"
 
 //conNameString = "Doremon" ไม่วามารถทำได้ เพราะเป็น let
 
+//การประกาศตัวแปรแบบกำหนด Data Type
+
+var surname: String = "Panbangpra"
+var Mynumber: Int = 321
+var myManyNumber : Double = 32.123
+var myStatus: Bool = false
+
+
+
