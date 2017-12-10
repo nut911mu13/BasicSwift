@@ -10,6 +10,23 @@ class MyClass {
     var numberInt = 123
     var nameString = "Doremon"
     
+//    Create Function Void Type
+   
+    func myFunctionTypeVoid() -> Void {
+        print("This is Void Function")
+    }
+    func myFunctionTypeVoidHaveArguemnt(surname: String) -> Void {
+        let surnameString = surname
+        print("surname ==> \(surnameString)")
+    }
+   
+//    Create Function return type
+    func calculateArea(base: Double, height: Double) -> Double {
+        let areaDouble = 0.5 * base * height
+        
+        return areaDouble
+    }
+    
 } // MyClass
 
 // How tocall resource of Myclass
@@ -26,3 +43,21 @@ print("before Number ==> \(myClass.numberInt)")
 myClass.numberInt = 1000
 
 print("After Number ==> \(myClass.numberInt)")
+
+
+//How to Call Function?
+
+
+myClass.myFunctionTypeVoid()
+
+myClass.myFunctionTypeVoidHaveArguemnt(surname: "Panbangpra")
+
+var answerDouble = myClass.calculateArea(base: 10, height: 25)
+
+
+
+
+
+
+
+
