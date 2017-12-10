@@ -15,7 +15,7 @@ if (ageInt<18) {
 let nameString = "Doremon"
 let friendStrings = ["Doremon","Nobita"]
 
-if (nameString == friendStrings[0]) {
+if (nameString == friendStrings[1]) {
     print("My Friend is \(nameString)")
 } else {
     print("Not my Friend")
